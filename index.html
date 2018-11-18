@@ -1,0 +1,296 @@
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="reply-to" content="julien.catania@gmail.com" />
+<meta name="google-site-verification" content="DYGL_Xu1SdC7zuMbXW5rmaUsFBLC0BGNj0qJFZLx2HU" />
+<meta name="description"
+	content="Site CV de Julien Catania - Développeur WEB" />
+<meta name="author" content="Julien Catania" />
+<meta name="keywords"
+	content="CV HTML5 CSS3 site internet catania julien NodeJS" />
+<link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+<title>Julien CATANIA - Développeur Full Stack // Marseille</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="css/footer.css" rel="stylesheet">
+
+<link href="css/style.css" rel="stylesheet">
+<link href="css/submenu.css" rel="stylesheet">
+<link href="css/effect.css" rel="stylesheet">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34338750-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body style="">
+	<div id="wrap">
+		<div class="navbar navbar-default navbar-fixed-top scrollMenu"
+			role="navigation" id="top-menu">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span> <span
+							class="icon-bar"></span> <span class="icon-bar"></span> <span
+							class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">jCatania.io</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#infos">Informations Personnelles</a></li>
+						<li><a href="#parcours">Parcours</a></li>
+						<li><a href="#connaissances">Compétences & Connaissances</a></li>
+						<li><a href="#projets">Projets</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a class="navbar-brand" id="changeFR" href="#"> <img alt="Français"
+								src="img/lang/fr.png">
+						</a></li>
+						<li><a class="navbar-brand" id="changeENG" href="#"> <img alt="English"
+								src="img/lang/usa.png">
+						</a></li>
+
+					</ul>
+				</div>
+
+				<!--/.navbar-collapse -->
+			</div>
+		</div>
+		<section id="home">			
+			<div id="pattern"></div>
+			<div class="container">
+				<div class="headline">
+					<h1>Julien Catania</h1>
+					<p>
+						<span id="titre"></span>
+					</p>
+				</div>
+				<br>
+				<div class="content scrollMenu">
+					<a href="#infos"> <span class="glyphicon glyphicon-menu-down"
+						aria-hidden="true"></span>
+					</a> <a href="#parcours" style="display: none;"> <span
+						class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+					</a> <a href="#connaissances" style="display: none;"> <span
+						class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+					</a> <a href="#projets" style="display: none;"> <span
+						class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section id="infos" class="" style="background: #eee;">
+			<div class="container">
+				<div class="headline-min">
+					<p>
+						<span style="background: #eee;" id="soustitreInfos"></span>
+					</p>
+					<h1 id="titreInfos"></h1>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<img class="responsive-img" src="img/profil.jpg" alt="">
+					</div>
+					<div class="col-md-4" id="informations">
+
+						<ul class="personal-details" id="infosDetails">
+
+						</ul>
+
+					</div>
+					<div class="col-md-4" id="descriptif">
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="parcours">
+			<div class="container">
+				<div class="headline-min">
+					<p>
+						<span id="soustitreParcours"></span>
+					</p>
+					<h1 id="titreParcours"></h1>
+				</div>
+				<section id="cd-timeline">
+
+				</section>
+			</div>
+		</section>
+		<section id="connaissances" style="background: #eee;">
+			<div class="container">
+				<div class="headline-min">
+					<p>
+						<span style="background: #eee;" id="soustitreConnaissances"></span>
+					</p>
+					<h1 id="titreConnaissances"></h1>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div id="js" class="devLang" data-lvl="4">
+							<p></p>
+							<span>JavaScript</span>
+						</div>
+						<div id="html" class="devLang" data-lvl="4">
+							<p></p>
+							<span>HTML5</span>
+						</div>
+						<div id="css" class="devLang" data-lvl="4">
+							<p></p>
+							<span>CSS3</span>
+						</div>
+						<div id="swift" class="devLang" data-lvl="3">
+							<p></p>
+							<span>Swift</span>
+						</div>
+						<div id="angular" class="devLang" data-lvl="3">
+							<p></p>
+							<span>AngularJS</span>
+						</div>
+						<div id="angular" class="devLang" data-lvl="3">
+							<p></p>
+							<span>Angular 4</span>
+						</div>
+						<div id="cs" class="devLang" data-lvl="3">
+							<p></p>
+							<span>C#</span>
+						</div>
+						<div id="cpp" class="devLang" data-lvl="3">
+							<p></p>
+							<span>C/C++</span>
+						</div>
+					</div>
+					<div class="col-md-6 text-justify">
+						<dl class="dl-horizontal">
+							<dt id="competencesOS"></dt>
+							<dt id="competencesIDE"></dt>
+							<dt id="competencesPlateforme"></dt>
+							<dt id="competencesCMS"></dt>
+							<dt id="competencesBureautique"></dt>
+							<dt id="competencesWebServer"></dt>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="projets">
+			<div class="container">
+				<div class="headline-min">
+					<p>
+						<span id="soustitreProjets"></span>
+					</p>
+					<h1 id="titreProjets"></h1>
+				</div>
+
+			</div>
+		</section>
+		<!-- /container -->
+	</div>
+	<div id="footer">
+		<div class="container">
+			<p class="text-muted">
+				&copy; 2017 JULIEN CATANIA - <a href="#creditModal"
+					data-toggle="modal">Crédit</a>
+			</p>
+		</div>
+	</div>
+	<div class="modal fade" id="creditModal" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="exampleModalLabel">CRÉDIT</h4>
+				</div>
+				<div class="modal-body">
+					<dl class="dl-horizontal">
+						<dt>Remerciements</dt>
+<!--							<dd><em style="margin-right: 2em;"><a target="_blank" href="https://www.facebook.com/laure.fouyer">Laure Fouyer</a></em> - Correction</dd>
+ 							<dd><em style="margin-right: 0.8em;"><a target="_blank" href="https://www.flickr.com/people/cedriclemoine/">Cedric Lemoine</a></em> - Photos</dd> -->
+							<dd>&nbsp;</dd>
+						<dt>Librairies utilisées</dt>
+							<dd><a target="_blank" href="http://getbootstrap.com/">Twitter Bootstrap</a></dd>
+							<dd><a target="_blank" href="https://jquery.com/">jQuery</a></dd>
+							<dd><a target="_blank" href="https://github.com/protonet/jquery.inview">InView</a></dd>
+							<dd><a target="_blank" href="https://github.com/IanLunn/jQuery-Parallax">Parallax</a></dd>
+							<dd><a target="_blank" href="http://codyhouse.co/gem/vertical-timeline/">Vertical TimeLine</a></dd>
+							<dd><a target="_blank" href="http://modernizr.com/">Modernizr</a></dd>
+							<dd><a target="_blank" href="http://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/">Tympanus - Hover Effects</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="projetModal" tabindex="-1" role="dialog"
+		aria-labelledby="projetModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="titre">Projet</h4>
+				</div>
+				<div class="modal-body">
+					<dl class="dl-horizontal" id="infos">
+							<dd></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="projetScreen" tabindex="-1" role="dialog"
+		aria-labelledby="projetModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="titre">Capture d'écran</h4>
+				</div>
+				<div class="modal-body">
+					<img id="screenProjectModal">
+				</div>
+			</div>
+		</div>
+	</div>
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		if (!window.jQuery) {
+			document.write('<script src="js/jquery-1.10.2.min.js"><\/script>');
+		}
+	</script>
+
+	<script src="js/jquery.parallax-1.1.3.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/lang.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.inview.min.js"></script>
+
+</body>
+</html>
