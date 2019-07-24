@@ -1,0 +1,101 @@
+:root {
+    -webkit-color-scheme: light dark;
+}
+section#infos, section#parcours, section#connaissances, section#projets{
+    transition: background 2s;
+}
+span#soustitreInfos{
+    transition: background 2s;
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Common */
+    .headline-min{
+        border: 1px solid #454545;
+    }
+
+    /* info */
+    section#infos{
+        background: #1f1f1f !important;
+        transition: background 2s;
+        color: #d5d5d5;
+    }
+    span#soustitreInfos{
+        background: #1f1f1f !important;
+        transition: background 2s;
+        color: #d5d5d5;
+    }
+    section#infos h1, section#infos ul li{
+        color: #d5d5d5;
+    }
+
+    /* parcours */
+    section#parcours{
+        background: #848484;
+        transition: background 2s;
+        color: white;
+    }
+    span#soustitreParcours{
+        background: #848484;
+        transition: background 2s;
+        color: white;
+    }
+    section#parcours h1{
+        color: white;
+    }
+    .cd-timeline-content{
+        background: rgba(71, 123, 158, 0.71);
+    }
+    .cd-timeline-content h2{
+        color: #000;
+    }
+
+    /* connaissances */
+    section#connaissances{
+        background: #1f1f1f !important;
+        transition: background 2s;
+        color: #d5d5d5;
+    }
+    span#soustitreConnaissances{
+        background: #1f1f1f !important;
+        transition: background 2s;
+        color: #d5d5d5;
+    }
+    section#connaissances h1, section#infos ul li{
+        color: #d5d5d5;
+    }
+
+    /* parcours */
+    section#projets{
+        background: #848484;
+        transition: background 2s;
+        color: white;
+    }
+    span#soustitreProjets{
+        background: #848484;
+        transition: background 2s;
+        color: white;
+    }
+    section#projets h1{
+        color: white;
+    }
+
+    div.navbar{
+        background: rgba(0, 0, 0, 0.87) none;
+        border-color: #787878;
+    }
+    .navbar-default .navbar-brand{
+
+        color: #fff;
+    }
+    .navbar-default .navbar-nav>li>a{
+        color: #fff;
+    }
+    .navbar-default .navbar-nav>.active>a{
+        background: rgba(73, 73, 73, 0.64) none;
+        color: #fff;
+    }
+    div#footer{
+        background: #1f1f1f;
+    }
+}
