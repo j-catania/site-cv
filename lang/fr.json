@@ -32,11 +32,10 @@
 		"soustitre":"MON UNIVERS",
 		"data":[
 			{"nom":"Système d'exploitation","data":["macOS","Windows","Linux Debian"]},
-			{"nom":"IDE","data":["Eclipse","Visual Studio","Xcode","Atom"]},
+			{"nom":"IDE","data":["Atom","Xcode","IntelliJ IDEA"]},
 			{"nom":"Plateforme nomade","data":["Android 4+","iOS/watchOS avec Swift","Ionic 2"]},
-			{"nom":"CMS","data":["Joomla 2.5"]},
 			{"nom":"Bureautique","data":["Microsoft Word","Powerpoint","Excel","Apple Keynote"]},
-			{"nom":"Serveur Web","data":["Microsoft IIS","Apache","NodeJS"]}
+			{"nom":"Serveur Web","data":["TomCat","Apache","NodeJS"]}
 		]
 	},
 	"projets":{
