@@ -9,7 +9,7 @@
 			{"ville": ["Ville de naissance","Marseille"]},
 			{"nationalite":["Nationalité","Française"]},
 			{"permis": "Permis B - Véhiculé"},
-			{"email": "julien.catania@gmail.com"},
+			{"email": "contact@jcatania.io"},
 			{"tel": "06 15 92 40 25"},
 			{"description":["Profil professionnel","<p>Premier ordinateur à l'age de 10 ans, je ne l'ai plus laché depuis !"]}
 		]
@@ -33,7 +33,7 @@
 		"data":[
 			{"nom":"Système d'exploitation","data":["macOS","Windows","Linux Debian"]},
 			{"nom":"IDE","data":["Atom","Xcode","IntelliJ IDEA"]},
-			{"nom":"Plateforme nomade","data":["Android 4+","iOS/watchOS avec Swift","Ionic 2"]},
+			{"nom":"Plateforme nomade","data":["Android 4+","iOS/watchOS avec Swift","Ionic 4+"]},
 			{"nom":"Bureautique","data":["Microsoft Word","Powerpoint","Excel","Apple Keynote"]},
 			{"nom":"Serveur Web","data":["TomCat","Apache","NodeJS"]}
 		]
